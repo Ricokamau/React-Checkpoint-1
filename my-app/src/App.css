@@ -1,0 +1,51 @@
+/* src/App.css */
+
+body {
+  background-color: #ffd8be; /* background */
+  color: #ffffff; /* White text color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid #ff6b35;
+  border-radius: 15px;
+  width: 20rem;
+  text-align: center;
+  background-color: #f7f7f2; /* Color for the card */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #ff6b35; /*color for title */
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.mt-3 p {
+  font-size: 1.3rem;
+  color: #ff6b35; /* color for greeting text */
+}
+
+.mt-3 img {
+  border-radius: 50%;
+  margin-top: 0.5rem;
+}
